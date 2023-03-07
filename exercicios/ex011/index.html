@@ -16,5 +16,24 @@
         <img src="imagens/foto-g.png" alt="Imagem flexível">
     </picture>
     
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+
+    <h2>Música</h2>
+    <audio src="midia/Here-it-Comes-TrackTribe.mp3" controls></audio>
+
+    <h2>Música 2</h2>
+    <audio preload="metadata" controls>
+        <source src="midia/As-You-Were-TrackTribe.mp3" type="audio/mpeg">
+    </audio>
+
+    <h2>Podcast</h2>
+    <audio preload="metadata" controls> <!--Carrega apenas os dados principais do áudio, sem carrega ele por completo previamente.-->
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+    </audio> <!--MP3 WAV OGG-->
+    <p>Infelizmente o seu navegador não consegue reproduzir o áudio. <a href="midia/guanacast-33.mp3">Clique aqui</a> para baixar o arquivo.</p>
+
 </body>
 </html>
