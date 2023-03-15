@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: rgb(119, 119, 119);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        nav{
+            background-color: aqua;
+            padding: 3px;
+            box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.171);
+
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight:bold ;
+            margin: 20px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: yellow;
+        }
+
+        main {
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            background-color: rgb(190, 190, 190);
+            padding: 1px 5px 1px 5px;
+        }
+
+        article > aside {
+            background-color: rgb(114, 114, 114);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Meu Site
+        </h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="esportes">
+            <article>
+                <h2>Esportes</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias adipisci molestiae, sunt perferendis in, assumenda numquam at beatae, quibusdam error praesentium quam placeat! Sit inventore cum aperiam. Vitae, corporis odit!</p>
+                    <aside>
+                        <p>
+                            Artigo escrito por Mauro Pereira
+                        </p>
+                    </aside>
+            </article>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias adipisci molestiae, sunt perferendis in, assumenda numquam at beatae, quibusdam error praesentium quam placeat! Sit inventore cum aperiam. Vitae, corporis odit!</p>
+                    <aside>
+                        <p>
+                            Artigo escrito por José Silva
+                        </p>
+                    </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Murillo Ressineti</p>
+    </footer>
+</body>
+</html>
