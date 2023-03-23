@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio do Astronauta</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+        #container {
+            height: 100vh;
+            background-color: darkblue;
+            background-image: url(imagens/espaco.jpg);
+            background-size: 100% 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            position: relative;
+        }
+
+        #conteudo {
+            background-image: url(imagens/astronauta.png);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            position: absolute;
+            height: 500px;
+            width: 500px;
+
+            left: 50%;
+            top: 50%;
+            
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>
