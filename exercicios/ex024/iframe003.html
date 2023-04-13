@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe {
+            display: block;
+            margin: auto;
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla commodi ea doloribus. Ipsa voluptas minima nesciunt, iusto temporibus tenetur ex sapiente eligendi, earum at placeat, rem maiores nostrum? Quis, officia.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">1ª Página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">2ª Página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">3ª Página</a></li>
+    </ul>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore maxime aspernatur nemo odio ipsa soluta, modi quibusdam rem quaerat velit unde, exercitationem ea possimus temporibus cupiditate quos eligendi aliquid distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora impedit sit exercitationem, id minima fugit facere repudiandae tempore unde praesentium labore, reprehenderit facilis sint beatae totam accusamus, temporibus ab. Dicta.</p>
+
+    <iframe name="frame" srcdoc="<h1> Escolha uma das opções acima </h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure doloribus minima tenetur. Asperiores, fugit atque tempore, debitis animi suscipit sint laborum quia totam at doloribus natus aspernatur inventore repudiandae assumenda?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi voluptate autem fugiat iusto alias culpa quas, molestias laudantium, iste nesciunt odio ut dolorum rerum. Recusandae eum earum tenetur corporis id.</p>" frameborder="0">
+        <p>Infelizmente seu navegador não é compatível</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure doloribus minima tenetur. Asperiores, fugit atque tempore, debitis animi suscipit sint laborum quia totam at doloribus natus aspernatur inventore repudiandae assumenda?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi voluptate autem fugiat iusto alias culpa quas, molestias laudantium, iste nesciunt odio ut dolorum rerum. Recusandae eum earum tenetur corporis id.</p>
+</body>
+</html>
