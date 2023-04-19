@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+
+    <!--
+    Get- Fica na Url (pode ser usada quando o link é compartilhável)
+    Post- Não fica na url (utilizável quando possui dados sensíveis)
+    -->
+
+    <form action="cadastro.php" method="post" autocomplete="off"> <!-- Autocomplete - Para não ficar sugerindo nomes no formulário-->
+        <p>
+            <label for="inome">Nome:</label> <!--Dentro do for é o id--> <!--O label relaciona o texto com o input-->
+            <input type="text" name="nome" id="inome">
+        </p>
+
+        <p>
+            <label for="isobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="isobrenome">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
