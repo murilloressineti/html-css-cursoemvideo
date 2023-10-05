@@ -7,9 +7,7 @@ Progresso de aprendizado por meio de exercícios e desafios práticos dos cursos
 
 ## Módulos
 
-![Módulo 1](https://github.com/murilloressineti/html-css/assets/125047522/ab216585-f5d3-490f-9bf7-3124edd07065)
-![Módulos](https://github.com/murilloressineti/html-css/assets/125047522/9dcfbec0-d6e8-42f2-93b9-829b63f79ed3)
-
+![Módulos](https://github.com/murilloressineti/html-css/assets/125047522/cef52054-e397-4f04-abde-8efa6e4a73e3)
 
 # Tecnologias utilizadas
 ## Front-end
