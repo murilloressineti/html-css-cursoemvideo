@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+
+  background-color: red;
+}
+
+.item {
+  background-color: dodgerblue;
+  border: 1px solid black;
+  flex: auto;
+  text-align: center;
+}
