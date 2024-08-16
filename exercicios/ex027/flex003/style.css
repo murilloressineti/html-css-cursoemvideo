@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-flow: column wrap;
+
+  background-color: red;
+  border: 1px solid red;
+  height: 100px;
+}
+
+.item {
+  background-color: dodgerblue;
+  border: 1px solid black;
+
+  flex: auto;
+  text-align: center;
+  align-content: center;
+
+  padding: 10px;
+}
