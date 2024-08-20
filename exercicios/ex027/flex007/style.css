@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-flow: row wrap;
+
+  background-color: red;
+}
+
+.item {
+  background-color: dodgerblue;
+  border: 1px solid black;
+  text-align: center;
+
+  padding: 40px;
+}
+
+#i1 {
+  order: 1;
+}
+
+#i2 {
+  order: 2;
+}
+
+#i5 {
+  order: -1;
+}
