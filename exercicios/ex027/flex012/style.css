@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+
+  background-color: red;
+}
+
+.item {
+  background-color: dodgerblue;
+  border: 1px solid black;
+  text-align: center;
+}
+
+#a {
+  flex-grow: 1;
+}
+
+#b {
+  flex-grow: 1;
+}
+
+#c {
+  flex-grow: 4;
+}
