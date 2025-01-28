@@ -26,12 +26,13 @@ header {
 }
 
 header > h1 {
-  border: .1rem dotted black;
+  /*border: .1rem dotted black;*/
   flex: 0 0 20rem;
+  text-shadow: .1rem .1rem 0rem rgba(0, 0, 0, 0.300);
 }
 
 header > nav {
-  border: .1rem dotted black;
+  /*border: .1rem dotted black;*/
 
   display: flex;
   flex-flow: row wrap;
