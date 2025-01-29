@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-*{ 
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -28,7 +28,7 @@ header {
 header > h1 {
   /*border: .1rem dotted black;*/
   flex: 0 0 20rem;
-  text-shadow: .1rem .1rem 0rem rgba(0, 0, 0, 0.300);
+  text-shadow: 0.1rem 0.1rem 0rem rgba(0, 0, 0, 0.3);
 }
 
 header > nav {
@@ -43,8 +43,8 @@ header > nav > a {
   background-color: black;
   color: white;
   padding: 1rem;
-  margin: .5rem;
-  border-radius: .5rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
   text-decoration: none;
   text-align: center;
 }
@@ -52,7 +52,7 @@ header > nav > a {
 header > nav > a:hover {
   background-color: white;
   color: black;
-  transition: background-color .5s;
+  transition: background-color 0.5s;
 }
 
 main {
@@ -60,5 +60,5 @@ main {
   margin: 1rem;
   padding: 1rem;
   border-radius: 1rem;
-  box-shadow: .2rem .2rem .3rem rgba(0, 0, 0, 0.300);
+  box-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.3);
 }
